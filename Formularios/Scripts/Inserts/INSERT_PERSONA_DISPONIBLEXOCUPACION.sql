@@ -1,6 +1,0 @@
-insert into PERSONA_DISPONIBLEXOCUPACION
-(USERNAME, OCUPACION_ID)
-values
-('Ale27', '1' )
-;
-

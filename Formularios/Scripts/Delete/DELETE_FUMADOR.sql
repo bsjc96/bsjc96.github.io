@@ -1,2 +1,0 @@
-DELETE FROM FUMADOR
-where FUMADOR_id = '1';

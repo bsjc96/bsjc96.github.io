@@ -1,2 +1,0 @@
-DELETE FROM RELIGION
-where RELIGION_id = '1';

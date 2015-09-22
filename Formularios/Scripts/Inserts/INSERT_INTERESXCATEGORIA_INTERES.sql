@@ -1,6 +1,0 @@
-insert into INTERESXCATEGORIA_INTERES
-(INTERES_ID, CATEGORIA_INTERES_ID)
-values
-('1', '1' )
-;
-

@@ -1,6 +1,0 @@
-insert into PERSONA_DISPONIBLEXIDIOMA
-(USERNAME, IDIOMA_ID)
-values
-('Ale27', '1' )
-;
-

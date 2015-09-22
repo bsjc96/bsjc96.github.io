@@ -1,2 +1,0 @@
-DELETE FROM INTERES
-where INTERES_id = '1';

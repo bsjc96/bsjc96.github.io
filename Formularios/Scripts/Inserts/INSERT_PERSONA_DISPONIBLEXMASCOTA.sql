@@ -1,6 +1,0 @@
-insert into PERSONA_DISPONIBLEXMASCOTA
-(USERNAME, MASCOTA_ID)
-values
-('Ale27', '1' )
-;
-
