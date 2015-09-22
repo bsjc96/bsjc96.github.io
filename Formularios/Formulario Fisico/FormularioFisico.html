@@ -69,6 +69,26 @@
   float: left;
   text-align: left;
 }
+.boton-cancelar {
+  color: #232323 !important;
+  background:#D0ED83;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 1.15em;
+  padding: 12px 18px;
+  display: block;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin:0px;    
+  overflow:visible;
+  padding:1px 6px;
+  width:100%;
+	}
 .form-label-right {
   display: inline-block;
   white-space: normal;
@@ -840,9 +860,9 @@ li[data-type="control_image"] img {
           $('input_7').hint('ex: 23');
        }, 20);
       JotForm.description('input_4', 'Seleccione su color de piel');
-      JotForm.description('input_5', 'Seleccione su color de piel');
-      JotForm.description('input_6', 'Seleccione su color de piel');
-      JotForm.description('input_8', 'Seleccione su color de piel');
+      JotForm.description('input_5', 'Seleccione su color de ojos');
+      JotForm.description('input_6', 'Seleccione su color de pelo');
+      JotForm.description('input_8', 'Seleccione su tipo de contextura');
       JotForm.alterTexts({"alphabetic":"This field can only contain letters","alphanumeric":"This field can only contain letters and numbers.","confirmClearForm":"Are you sure you want to clear the form","email":"Enter a valid e-mail address","incompleteFields":"There are incomplete required fields. Please complete them.","lessThan":"Your score should be less than","numeric":"This field can only contain numeric values","pleaseWait":"Please wait...","required":"This field is required.","uploadExtensions":"You can only upload following files:","uploadFilesize":"File size cannot be bigger than:"});
 	JotForm.clearFieldOnHide="disable";
 	JotForm.onSubmissionError="jumpToSubmit";
@@ -957,6 +977,15 @@ li[data-type="control_image"] img {
           </div>
         </div>
       </li>
+      <div id="cid_33" class="form-input-wide">
+          <div style="margin-left: 156px; text-align: center;" class="form-buttons-wrapper">
+
+      
+            <button id="input_33" type="submit" class="boton-cancelar" onClick="window.location.href='../Formulario General/RegistroDatos.html'">
+              Atrás
+            </button>
+     </div>
+      </div>
       <li class="form-line" data-type="control_image" id="id_10">
         <div id="cid_10" class="form-input-wide">
           <div style="text-align:right;">
@@ -965,7 +994,7 @@ li[data-type="control_image"] img {
         </div>
       </li>
       <li style="display:none">
-        Should be Empty:
+        Debería estar vacío:
         <input type="text" name="website" value="" />
       </li>
     </ul>
